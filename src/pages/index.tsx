@@ -3,10 +3,10 @@ import { useEffect } from 'react'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import { useDispatch, useSelector } from 'react-redux'
 
-import {allProductsSelector, getAllProduct} from '../src/redux'
+import {allProductsSelector, getAllProduct} from '../redux'
 
 export default function Home() {
   const dispatch = useDispatch()

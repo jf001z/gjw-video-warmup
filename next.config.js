@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  compress: true,
   eslint: {
     dirs: ['pages', 'src']
   }

@@ -2,10 +2,10 @@
   "plugins": ["@typescript-eslint"],
   "extends": [
     "next/core-web-vitals", 
-    "plugin:@next/next/recommended",
+    // "plugin:@next/next/recommended",
     "prettier"],
   "rules": {
-    "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error"
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "warn"
   }
 }
