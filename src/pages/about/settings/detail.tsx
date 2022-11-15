@@ -1,5 +1,7 @@
 export default function Home() {
-  return (<div>
+  return (
+  <div>
     This is about/settings details
-  </div>)
+  </div>
+  )
 }
